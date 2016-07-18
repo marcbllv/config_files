@@ -1,0 +1,18 @@
+[color]
+    diff = auto
+    status = auto
+    branch = auto
+[user]
+    name = 
+    email = 
+[alias]
+    ci = commit
+    co = checkout
+    st = status
+    br = branch
+[push]
+	default = simple
+[core]
+	editor = vim
+[pull]
+	rebase = true
