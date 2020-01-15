@@ -3,16 +3,20 @@
     status = auto
     branch = auto
 [user]
-    name = 
-    email = 
+    name = Marc Beillevaire
+    email = marc.beillevaire@gmail.com
 [alias]
     ci = commit
     co = checkout
     st = status
     br = branch
+    rb = rebase
 [push]
 	default = simple
 [core]
 	editor = vim
+	quotepath = true
 [pull]
 	rebase = true
+[merge]
+    tool = vimdiff
