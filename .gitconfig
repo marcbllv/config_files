@@ -11,6 +11,7 @@
     st = status
     br = branch
     rb = rebase
+    rbc = rebase --continue
     df = diff
     dfs = diff --staged
     rs = restore --staged .
