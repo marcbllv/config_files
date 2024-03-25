@@ -11,6 +11,9 @@
     st = status
     br = branch
     rb = rebase
+    df = diff
+    dfs = diff --staged
+    rs = restore --staged .
 [push]
 	default = simple
 [core]
